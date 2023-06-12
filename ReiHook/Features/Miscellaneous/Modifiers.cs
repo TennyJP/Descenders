@@ -1,0 +1,42 @@
+﻿namespace ReiHook.Features.Miscellaneous
+{
+    public class Modifiers
+    {
+        public static void AddAllModifiers()
+        {
+            DevCommandsGameplay.AddModifier("PumpStrength");
+            DevCommandsGameplay.AddModifier("BunnyHopForce");
+            DevCommandsGameplay.AddModifier("WheelieBalance");
+            DevCommandsGameplay.AddModifier("TweakingSpeed");
+            DevCommandsGameplay.AddModifier("SpinningSpeed");
+            DevCommandsGameplay.AddModifier("OffroadFriction");
+            DevCommandsGameplay.AddModifier("SpeedWobbles");
+            DevCommandsGameplay.AddModifier("FakieBalance");
+            DevCommandsGameplay.AddModifier("InAirCorrection");
+            DevCommandsGameplay.AddModifier("ImpactTreshold");
+            DevCommandsGameplay.AddModifier("HeavyBailTreshold");
+            DevCommandsGameplay.AddModifier("Steepness");
+            DevCommandsGameplay.AddModifier("Curves");
+            DevCommandsGameplay.AddModifier("Stunts");
+            DevCommandsGameplay.AddModifier("HigherBerms");
+            DevCommandsGameplay.AddModifier("TerrainBlend");
+            DevCommandsGameplay.AddModifier("OffroadObstacles");
+            DevCommandsGameplay.AddModifier("BroaderPath");
+            DevCommandsGameplay.AddModifier("SmootherCurves");
+            DevCommandsGameplay.AddModifier("CheckpointDistance");
+            DevCommandsGameplay.AddModifier("PreventModifiers");
+            DevCommandsGameplay.AddModifier("ShowCompass");
+            DevCommandsGameplay.AddModifier("ScoutFurther");
+            DevCommandsGameplay.AddModifier("MoreTeamNodes");
+            DevCommandsGameplay.AddModifier("Acceleration");
+            DevCommandsGameplay.AddModifier("TopSpeed");
+            DevCommandsGameplay.AddModifier("TurnSpeed");
+            DevCommandsGameplay.AddModifier("DisableBackWheelSpringAnimation");
+            DevCommandsGameplay.AddModifier("SpringStiffness");
+            DevCommandsGameplay.AddModifier("SpringDamping");
+            DevCommandsGameplay.AddModifier("BackWheelSpringStiffness");
+            DevCommandsGameplay.AddModifier("BackWheelSpringDamping");
+            DevCommandsGameplay.AddModifier("SpringHeight");
+        }
+    }
+}
